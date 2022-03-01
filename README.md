@@ -2,7 +2,7 @@
 
 This project is just a project example to learn how to use Laravel Websockets (Backend) and Ionic 6 (frontend) to create a simple Chat example.
 
-RESTFul end-point http://localhost/broadcast is used to send messages from Ionic to Laravel API. 
+RESTFul end-point POST /broadcast is used to send messages from Ionic to Laravel API. 
 
 In the frontend (Ionic) the libraries laravel-echo and pusher-js are used to receive messages from Laravel Websockets.
 
@@ -19,6 +19,7 @@ From Github: https://github.com/tcrurav/WebsocketsLaravelIonic.git
 You need a working environment with:
 * [Git](https://git-scm.com) - You can install it from https://git-scm.com/downloads.
 * [Laravel](https://laravel.com/) - I always install Composer, and XAMPP to get a working environment.
+* [Ionic](https://ionicframework.com/) - Free and open source, Ionic offers a library of mobile-optimized UI components, gestures, and tools for building fast, highly interactive apps.
 
 ## General Installation instructions
 
