@@ -66,6 +66,10 @@ ionic serve
 
 Enjoy!!!
 
+## Important details to start this project from scratch
+
+* Detail nº1: Don't forget to add the link to pusher library in Ionic index.html. You can find the last version of this library in https://pusher.com/docs/channels/getting_started/javascript/
+* Detail nº2: Take into account that this approach use RESTful calls to send info to Laravel API, and keep listening the broadcasted messages by Laravel Websockets using laravel-echo and pusher-js libraries.
 
 ## Built With
 
