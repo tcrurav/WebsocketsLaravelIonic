@@ -52,7 +52,7 @@ php artisan serve
 
 Run your backend Laravel websockets:
 
-````
+```
 cd WebsocketsLaravelIonic/backend
 php artisan websockets:serve
 ```
