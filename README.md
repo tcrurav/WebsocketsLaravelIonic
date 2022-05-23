@@ -43,6 +43,14 @@ cd WebsocketsLaravelIonic/backend
 composer install
 ```
 
+To try this project just rename backend/.env.example to backend/.env and you will probably just need to change the following:
+
+```
+DB_DATABASE=your_db_name
+DB_USERNAME=your_db_username
+DB_PASSWORD=your_db_password
+```
+
 Run your backend API (Laravel):
 
 ```
